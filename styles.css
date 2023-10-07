@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-image: url("background.jpg"); /* 밤하늘 배경 이미지 */
+    background-image: url("https://9chaen.github.io/morceau-d-hiver/background.jpg"); /* 밤하늘 배경 이미지 */
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,7 +27,7 @@ body {
 .star {
     width: 12vw; /* 별 이미지 너비를 화면 크기에 상대적으로 조정 */
     height: 12vw; /* 별 이미지 높이를 화면 크기에 상대적으로 조정 */
-    background-image: url("star.png"); /* 별 이미지 경로 설정 */
+    background-image: url("https://9chaen.github.io/morceau-d-hiver/star.png"); /* 별 이미지 경로 설정 */
     background-size: cover;
     cursor: pointer;
 }
