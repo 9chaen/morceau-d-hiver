@@ -1,0 +1,107 @@
+html, body {
+  height: 100%;
+}
+
+.hero-header {
+  height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url("background.jpg"); /* 밤하늘 배경 이미지 */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#stars-container {
+    position: absolute;
+    top: 50px; /* 화면 상단에서 조절 가능한 높이 */
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.star {
+    width: 12vw; /* 별 이미지 너비를 화면 크기에 상대적으로 조정 */
+    height: 12vw; /* 별 이미지 높이를 화면 크기에 상대적으로 조정 */
+    background-image: url("star.png"); /* 별 이미지 경로 설정 */
+    background-size: cover;
+    cursor: pointer;
+}
+
+@keyframes twinkling {
+    0%, 20%, 80%, 100% {
+        opacity: 1;
+    }
+    40%, 60% {
+        opacity: 0.5;
+    }
+}
+
+.star:nth-child(1) {
+    animation: twinkling 5s infinite alternate;
+    width: 10vw; /* 첫 번째 별의 너비 설정 */
+    height: 10vw; /* 첫 번째 별의 높이 설정 */
+}
+
+.star:nth-child(2) {
+    animation: twinkling 4s infinite alternate;
+    width: 10vw; /* 두 번째 별의 너비 설정 */
+    height: 10vw; /* 두 번째 별의 높이 설정 */
+}
+
+.star:nth-child(3) {
+    animation: twinkling 6s infinite alternate;
+    width: 10vw; /* 세 번째 별의 너비 설정 */
+    height: 10vw; /* 세 번째 별의 높이 설정 */
+}
+
+.star:nth-child(4) {
+    animation: twinkling 3s infinite alternate;
+    width: 10vw; /* 네 번째 별의 너비 설정 */
+    height: 10vw; /* 네 번째 별의 높이 설정 */
+}
+
+.star:nth-child(5) {
+    animation: twinkling 7s infinite alternate;
+    width: 10vw; /* 다섯 번째 별의 너비 설정 */
+    height: 10vw; /* 다섯 번째 별의 높이 설정 */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+#video-wrapper {
+    position: relative;
+    width: 80%;
+    padding-bottom: 56.25%; /* 16:9 비율의 비디오 높이를 위한 값 */
+}
+
+#video-player {
+    position: relative;
+    top: 40px;
+    left: 190px;
+    width: 100%;
+    height: 100%;
+}
