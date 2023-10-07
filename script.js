@@ -4,11 +4,11 @@ const closeButton = document.getElementById('close-button');
 const videoPlayer = document.getElementById('video-player');
 
 const starData = [
-    { videoSrc: 'video1.mp4', imageSrc: 'star1.png' },
-    { videoSrc: 'video2.mp4', imageSrc: 'star2.png' },
-    { videoSrc: 'video3.mp4', imageSrc: 'star3.png' },
-    { videoSrc: 'video4.mp4', imageSrc: 'star4.png' },
-    { videoSrc: 'video5.mp4', imageSrc: 'star5.png' },
+    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video1.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star1.png' },
+    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video2.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star2.png' },
+    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video3.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star3.png' },
+    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video4.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star4.png' },
+    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video5.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star5.png' },
 ];
 
 starData.forEach((data, index) => {
