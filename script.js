@@ -4,11 +4,11 @@ const closeButton = document.getElementById('close-button');
 const videoPlayer = document.getElementById('video-player');
 
 const starData = [
-    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video1.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star1.png' },
-    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video2.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star2.png' },
-    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video3.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star3.png' },
-    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video4.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star4.png' },
-    { videoSrc: 'https://9chaen.github.io/morceau-d-hiver/video5.mp4', imageSrc: 'https://9chaen.github.io/morceau-d-hiver/star5.png' },
+    { videoSrc: 'https://9chaen.github.io/Sigur-ros/video1.mp4', imageSrc: 'https://9chaen.github.io/Sigur-ros/star1.png' },
+    { videoSrc: 'https://9chaen.github.io/Sigur-ros/video2.mp4', imageSrc: 'https://9chaen.github.io/Sigur-ros/star2.png' },
+    { videoSrc: 'https://9chaen.github.io/Sigur-ros/video3.mp4', imageSrc: 'https://9chaen.github.io/Sigur-ros/star3.png' },
+    { videoSrc: 'https://9chaen.github.io/Sigur-ros/video4.mp4', imageSrc: 'https://9chaen.github.io/Sigur-ros/star4.png' },
+    { videoSrc: 'https://9chaen.github.io/Sigur-ros/video5.mp4', imageSrc: 'https://9chaen.github.io/Sigur-ros/star5.png' },
 ];
 
 starData.forEach((data, index) => {
