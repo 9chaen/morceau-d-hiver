@@ -94,8 +94,8 @@ body {
 
 #video-wrapper {
     position: relative;
-    width: 80%;
-    padding-bottom: 56.25%; /* 16:9 비율의 비디오 높이를 위한 값 */
+    width: 40%;
+    padding-bottom: 40%; /* 16:9 비율의 비디오 높이를 위한 값 */
 }
 
 #video-player {
